@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
  s.source_files =  "Umeng/*.{h,m,mm}"
  s.requires_arc = true
  s.public_header_files = "Umeng/*.h"
- s.ios.vendored_library = "Umeng/*.a"
+ s.vendored_frameworks = "Umeng/*.framework"
  # s.framework = "SomeFramework"
  # s.frameworks = "SomeFramework", "AnotherFramework"
  # s.library = "z"
